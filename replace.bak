@@ -1,0 +1,9 @@
+# extract flow types declaration to the definition of sublime completion
+
+Find: (?:\A[\s\S]*?|^)declare\s+?class\s+?([\w$]+)\b[\s\S]*?(?=(?:^declare\s+class|\Z))
+Replace: \n("$1\tFlowType", "$1"),
+
+
+# extract types from *.py to README.md
+Find: .*?,.*?"(\w+).*?(?:\n|\Z)
+Replace: $1,
