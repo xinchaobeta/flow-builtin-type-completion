@@ -1,7 +1,14 @@
 {
-  "name": "flow-internal-type-completion",
+  "name": "flow-builtin-type-completion",
   "version": "0.1.0",
   "description": "A sublime plugin for flow built-in type auto-completion",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xinchaobeta/flow-builtin-type-completion.git"
+  },
   "author": "xinchaobeta",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/xinchaobeta/flow-builtin-type-completion/issues"
+  },
+  "license": "MIT"
 }
