@@ -1,0 +1,7 @@
+{
+  "name": "flow-internal-type-completion",
+  "version": "0.1.0",
+  "description": "A sublime plugin for flow built-in type auto-completion",
+  "author": "xinchaobeta",
+  "license": "ISC"
+}
