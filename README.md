@@ -12,6 +12,10 @@ The easiest way to install this is with [Package Control](https://sublime.wbond.
 
 Package Control will automatically keep the package up to date with the latest version.
 
+## Screenshots
+![sample](https://raw.githubusercontent.com/xinchaobeta/flow-builtin-type-completion/master/screenshots/sample.png)
+
+
 ## Built-In Types in Flow [v0.12.0](https://github.com/facebook/flow/releases/tag/v0.12.0)
 
 - [BOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/bom.js)
