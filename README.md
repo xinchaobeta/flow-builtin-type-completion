@@ -1,6 +1,6 @@
 # Flow Built-In Type Completion
 
-This is a sublime plugin for flow built-in type auto completion.
+This is a sublime plugin for [flow](https://github.com/facebook/flow) built-in type auto completion.
 
 ## Install
 
@@ -12,9 +12,9 @@ The easiest way to install this is with [Package Control](https://sublime.wbond.
 
 Package Control will automatically keep the package up to date with the latest version.
 
-## Built-In Types in Flow 0.12.0
+## Built-In Types in Flow [v0.12.0](https://github.com/facebook/flow/releases/tag/v0.12.0)
 
-#### [BOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/bom.js)
+- [BOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/bom.js)
 
 ```
 History, Location, DOMParser, FormData, MutationRecord, MutationObserver, 
@@ -23,7 +23,7 @@ XMLSerializer, Geolocation, Position, Coordinates, PositionError,
 PositionOptions
 ```
 
-#### [CORE Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/core.js)
+- [CORE Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/core.js)
 
 ```
 Object, Symbol, Function, Boolean, Number, Array, String, RegExp, Date, Error, 
@@ -33,19 +33,19 @@ Uint8Array, Uint8ClampedArray, Int16Array, Uint16Array, Int32Array,
 Uint32Array, Float32Array, Float64Array, DataView
 ```
 
-#### PRIMITIVE Built-In Types
+- PRIMITIVE Built-In Types
 
 ```
 boolean, string, void, any, mixed, number
 ```
 
-#### [CSSOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/cssom.js)
+- [CSSOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/cssom.js)
 
 ```
 StyleSheet, CSSStyleSheet, CSSRule, CSSRuleList, CSSStyleDeclaration
 ```
 
-#### [DOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/dom.js)
+- [DOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/dom.js)
 
 ```
 Blob, FileReader, BaseReader, File, FileList, DOMError, EventTarget, Event, 
@@ -65,13 +65,13 @@ ImageData, CanvasRenderingContext2D, WebGLRenderingContext, HTMLCanvasElement,
  TrackDefault
 ```
 
-#### [NODE Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/node.js)
+- [NODE Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/node.js)
 
 ```
 Buffer
 ```
 
-#### [REACT Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/react.js)
+- [REACT Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/react.js)
 
 ```
 ReactComponent, ReactElement, SyntheticEvent, SyntheticClipboardEvent, 
