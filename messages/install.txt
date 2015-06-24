@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////
+//                                                 //
+//          Flow Built-In Type Completion          //
+//                                                 //
+/////////////////////////////////////////////////////
+
+
+
+
+Thanks for installing this package. This package was made to help make
+
+the hassle of coding with flow a little bit easier. 
+
+
+You can learn more about packages mentioned above by following these links:
+
+https://github.com/xinchaobeta/flow-builtin-type-completion
+
+
+
+
+------------------------------------------------
+If you find any bugs, please notify me on the GitHub page:
+https://github.com/xinchaobeta/flow-builtin-type-completion/issues
+------------------------------------------------
+
