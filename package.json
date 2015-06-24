@@ -1,6 +1,6 @@
 {
   "name": "flow-builtin-type-completion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A sublime plugin for flow built-in type auto-completion",
   "repository": {
     "type": "git",
