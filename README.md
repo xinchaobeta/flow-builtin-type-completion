@@ -16,25 +16,35 @@ Package Control will automatically keep the package up to date with the latest v
 ![sample](https://raw.githubusercontent.com/xinchaobeta/flow-builtin-type-completion/master/screenshots/sample.png)
 
 
-## Built-In Types in Flow [v0.12.0](https://github.com/facebook/flow/releases/tag/v0.12.0)
+## Built-In Types in Flow [v0.23.0](https://github.com/facebook/flow/releases/tag/v0.23.0)
 
-- [BOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/bom.js)
-
-```
-History, Location, DOMParser, FormData, MutationRecord, MutationObserver, 
-WebSocket, Worker, XDomainRequest, XMLHttpRequest, XMLHttpRequestEventTarget, 
-XMLSerializer, Geolocation, Position, Coordinates, PositionError, 
-PositionOptions
-```
-
-- [CORE Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/core.js)
+- [BOM Built-In Types](https://github.com/facebook/flow/blob/v0.23.0/lib/bom.js)
 
 ```
-Object, Symbol, Function, Boolean, Number, Array, String, RegExp, Date, Error, 
-EvalError, RangeError, ReferenceError, SyntaxError, TypeError, URIError, JSON, 
-Map, WeakMap, Set, Promise, ArrayBuffer, ArrayBufferView, Int8Array, 
-Uint8Array, Uint8ClampedArray, Int16Array, Uint16Array, Int32Array, 
-Uint32Array, Float32Array, Float64Array, DataView
+Screen, Navigator, MimeType, MimeTypeArray, Plugin, PluginArray, History, 
+Location, DOMParser, FormData, MutationRecord, MutationObserver, 
+CloseEvent, WebSocket, Worker, XDomainRequest, XMLHttpRequest, 
+XMLHttpRequestEventTarget, XMLSerializer, Geolocation, Position, 
+Coordinates, PositionError, AudioContext, AudioNode, AudioParam, 
+AudioDestinationNode, AudioListener, AudioBuffer, AudioBufferSourceNode, 
+MediaStream, MediaStreamTrack, MediaElementAudioSourceNode, 
+MediaStreamAudioSourceNode, ScriptProcessorNode, AnalyserNode, 
+BiquadFilterNode, ChannelMergerNode, ChannelSplitterNode, 
+ConvolverNode, DelayNode, DynamicsCompressorNode, GainNode, 
+OscillatorNode, PannerNode, PeriodicWave, WaveShaperNode, Headers, 
+URLSearchParams, Response, Request
+```
+
+- [CORE Built-In Types](https://github.com/facebook/flow/blob/v0.23.0/lib/core.js)
+
+```
+Object, Symbol, Function, Boolean, Number, Array, 
+String, RegExp, Date, Error, EvalError, RangeError, 
+ReferenceError, SyntaxError, TypeError, URIError, 
+JSON, Map, WeakMap, Set, WeakSet, Promise, ArrayBuffer, 
+$TypedArray, Int8Array, Uint8Array, Uint8ClampedArray, 
+Int16Array, Uint16Array, Int32Array, Uint32Array, 
+Float32Array, Float64Array, DataView, Reflect
 ```
 
 - PRIMITIVE Built-In Types
@@ -43,44 +53,55 @@ Uint32Array, Float32Array, Float64Array, DataView
 boolean, string, void, any, mixed, number
 ```
 
-- [CSSOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/cssom.js)
+- [CSSOM Built-In Types](https://github.com/facebook/flow/blob/v0.23.0/lib/cssom.js)
 
 ```
-StyleSheet, CSSStyleSheet, CSSRule, CSSRuleList, CSSStyleDeclaration
+StyleSheet, StyleSheetList, MediaList, CSSStyleSheet, 
+CSSRule, CSSRuleList, CSSStyleDeclaration, TransitionEvent 
 ```
 
-- [DOM Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/dom.js)
+- [DOM Built-In Types](https://github.com/facebook/flow/blob/v0.23.0/lib/dom.js)
 
 ```
-Blob, FileReader, BaseReader, File, FileList, DOMError, EventTarget, Event, 
-ProgressEvent, MessageEvent, Node, NodeList, NamedNodeMap, Attr, 
-HTMLCollection, Document, DocumentFragment, Range, DOMTokenList, Element, 
-HTMLElement, HTMLBaseElement, CanvasGradient, CanvasPattern, ImageBitmap, 
-HitRegionOptions, CanvasDrawingStyles, SVGMatrix, TextMetrics, Path2D, 
-ImageData, CanvasRenderingContext2D, WebGLRenderingContext, HTMLCanvasElement,
- HTMLCollection, HTMLFormElement, HTMLImageElement, Image, MediaError, 
- TimeRanges, AudioTrack, AudioTrackList, VideoTrack, VideoTrackList, 
- TextTrackCue, TextTrackCueList, TextTrack, TextTrackList, HTMLMediaElement, 
- HTMLVideoElement, HTMLInputElement, HTMLButtonElement, HTMLTextAreaElement, 
- HTMLSelectElement, HTMLOptionsCollection, HTMLAnchorElement, 
- HTMLScriptElement, HTMLStyleElement, TextRange, ClientRect, ClientRectList, 
- DOMImplementation, DocumentType, CharacterData, Text, Comment, URL, 
- MediaSource, SourceBuffer, SourceBufferList, Storage, TrackDefaultList, 
- TrackDefault
+Blob, FileReader, BaseReader, File, FileList, DataTransfer, 
+DataTransferItemList, DataTransferItem, DOMError, EventTarget, 
+Event, UIEvent, MouseEvent, WheelEvent, DragEvent, 
+ProgressEvent, MessageEvent, KeyboardEvent, Node, NodeList, 
+NamedNodeMap, Attr, HTMLCollection, Document, DocumentFragment, 
+Selection, Range, DOMTokenList, Element, HTMLElement, 
+HTMLBaseElement, CanvasGradient, CanvasPattern, ImageBitmap, 
+HitRegionOptions, CanvasDrawingStyles, SVGMatrix, TextMetrics, 
+Path2D, ImageData, CanvasRenderingContext2D, 
+WebGLRenderingContext, HTMLCanvasElement, HTMLFormElement, 
+HTMLIFrameElement, HTMLImageElement, Image, MediaError, 
+TimeRanges, AudioTrack, AudioTrackList, VideoTrack, 
+VideoTrackList, TextTrackCue, TextTrackCueList, TextTrack, 
+TextTrackList, HTMLMediaElement, HTMLVideoElement, 
+HTMLInputElement, HTMLButtonElement, HTMLTextAreaElement, 
+HTMLSelectElement, HTMLOptionsCollection, HTMLOptionElement, 
+HTMLAnchorElement, HTMLLabelElement, HTMLLinkElement, 
+HTMLScriptElement, HTMLStyleElement, HTMLParagraphElement, 
+HTMLDivElement, HTMLSpanElement, HTMLAppletElement, 
+HTMLEmbedElement, TextRange, ClientRect, ClientRectList, 
+DOMImplementation, DocumentType, CharacterData, Text, 
+Comment, URL, MediaSource, SourceBuffer, SourceBufferList, 
+Storage, TrackDefaultList, TrackDefault, NodeFilter, 
+NodeIterator, TreeWalker
 ```
 
-- [NODE Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/node.js)
+- [NODE Built-In Types](https://github.com/facebook/flow/blob/v0.23.0/lib/node.js)
 
 ```
-Buffer
+Buffer, Process
 ```
 
-- [REACT Built-In Types](https://github.com/facebook/flow/blob/v0.12.0/lib/react.js)
+- [REACT Built-In Types](https://github.com/facebook/flow/blob/v0.23.0/lib/react.js)
 
 ```
-ReactComponent, ReactElement, SyntheticEvent, SyntheticClipboardEvent, 
-SyntheticCompositionEvent, SyntheticInputEvent, SyntheticUIEvent, 
-SyntheticFocusEvent, SyntheticKeyboardEvent, SyntheticMouseEvent, 
+React, LegacyReactComponent, React, SyntheticEvent, 
+SyntheticClipboardEvent, SyntheticCompositionEvent, 
+SyntheticInputEvent, SyntheticUIEvent, SyntheticFocusEvent, 
+SyntheticKeyboardEvent, SyntheticMouseEvent, 
 SyntheticDragEvent, SyntheticWheelEvent, SyntheticTouchEvent
 ```
 

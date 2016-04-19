@@ -19,9 +19,10 @@ types = [
     ("Map\tFlowType", "Map"),
     ("WeakMap\tFlowType", "WeakMap"),
     ("Set\tFlowType", "Set"),
+    ("WeakSet\tFlowType", "WeakSet"),
     ("Promise\tFlowType", "Promise"),
     ("ArrayBuffer\tFlowType", "ArrayBuffer"),
-    ("ArrayBufferView\tFlowType", "ArrayBufferView"),
+    ("$TypedArray\tFlowType", "$TypedArray"),
     ("Int8Array\tFlowType", "Int8Array"),
     ("Uint8Array\tFlowType", "Uint8Array"),
     ("Uint8ClampedArray\tFlowType", "Uint8ClampedArray"),
@@ -31,5 +32,6 @@ types = [
     ("Uint32Array\tFlowType", "Uint32Array"),
     ("Float32Array\tFlowType", "Float32Array"),
     ("Float64Array\tFlowType", "Float64Array"),
-    ("DataView\tFlowType", "DataView")
+    ("DataView\tFlowType", "DataView"),
+    ("Reflect\tFlowType", "Reflect")
 ]

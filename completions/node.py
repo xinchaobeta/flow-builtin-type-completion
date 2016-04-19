@@ -1,3 +1,4 @@
 types = [
-  ("Buffer\tFlowType", "Buffer")
+  ("Buffer\tFlowType", "Buffer"),
+  ("Process\tFlowType", "Process")
 ]

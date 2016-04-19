@@ -1,6 +1,7 @@
 types = [
-  ("ReactComponent\tFlowType", "ReactComponent"),
-  ("ReactElement\tFlowType", "ReactElement"),
+  ("React$Component\tFlowType", "React$Component"),
+  ("LegacyReactComponent\tFlowType", "LegacyReactComponent"),
+  ("React$Element\tFlowType", "React$Element"),
   ("SyntheticEvent\tFlowType", "SyntheticEvent"),
   ("SyntheticClipboardEvent\tFlowType", "SyntheticClipboardEvent"),
   ("SyntheticCompositionEvent\tFlowType", "SyntheticCompositionEvent"),
@@ -13,3 +14,4 @@ types = [
   ("SyntheticWheelEvent\tFlowType", "SyntheticWheelEvent"),
   ("SyntheticTouchEvent\tFlowType", "SyntheticTouchEvent")
 ]
+
